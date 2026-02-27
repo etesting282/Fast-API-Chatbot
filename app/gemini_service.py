@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 client = genai.Client(
-    api_key="",
+    api_key="Your api key",
 )
 
 MODEL = "gemini-3-flash-preview"
